@@ -25,7 +25,6 @@ function runTimer() {
     timer[2] = Math.floor((timer[3] - (timer[1]*100) - (timer[0]*6000)));
 }
 
-
 // Match the text entered with the provided text on the page:
 function spellCheck() {
     var textEntered = testArea.value;
@@ -44,7 +43,6 @@ function spellCheck() {
 
 
 }
-
 
 // Start the timer:
 function start() {
@@ -67,9 +65,14 @@ function reset() {
 
     testArea.value = '';
     testWrapper.style.borderColor = 'grey';
+}
 
-
-
+function paste() {
+    alert('Don\'t even try');
+    setTimeout(clear, 1000);
+}
+function clear() {
+    testArea.value = '';
 }
 
 
