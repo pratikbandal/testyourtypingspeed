@@ -81,4 +81,4 @@ function clear() {
 testArea.addEventListener('keypress', start, false);
 testArea.addEventListener('keyup',spellCheck, false);
 resetButton.addEventListener('click', reset, false)
-
+testArea.addEventListener('paste', paste, false);
