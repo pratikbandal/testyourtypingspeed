@@ -68,8 +68,8 @@ function reset() {
 }
 
 function paste() {
-    alert('Don\'t even try');
-    setTimeout(clear, 1000);
+    alert('Don\'t even try :)');
+    setTimeout(clear, 10);
 }
 function clear() {
     testArea.value = '';
